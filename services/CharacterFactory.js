@@ -5,7 +5,8 @@ character.factory('CharacterFactory', function() {
     factory.name = playerName;
     factory.sex = playerSex;
     factory.class = playerClass;
+    factory.outcome = null;
   };
-  
+
   return factory;
 });
