@@ -1,6 +1,6 @@
 <div>
-<p>Name is {{ player.playerName }}</p>
-<p>Sex is {{ player.playerSex }}</p>
+<p>Name is {{ players.player[0].playerName }}</p>
+<p>Sex is {{ players.player[0].playerSex }}</p>
 <form ng-submit="createPlayer()" role="form">
   <button type="submit" class="btn btn-default">Venture forth!</button>
 </form>
