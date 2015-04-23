@@ -1,12 +1,10 @@
 character.factory('CharacterFactory', function() {
   var factory = {};
 
-  factory.makeCharacter = function(name, sex, class) {
-    factory = {
-      name: name,
-      sex: sex,
-      class: class
-    });
+  factory.createPlayer = function(playerName, playerSex, playerClass) {
+    factory.playerName = playerName;
+    factory.playerSex = playerSex;
+    factory.playerClass = playerClass;
   };
   return factory;
 });

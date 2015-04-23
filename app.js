@@ -6,9 +6,15 @@ character.config(function($stateProvider) {
     templateUrl: "partials/home.html"
   });
 
-  $stateProvider.state('create', {
+  $stateProvider.state('/create', {
     url: "/create",
     templateUrl: "partials/create.html",
-    controller: 'CreateCtrl'
+    controller: 'CharacterCtrl'
+  });
+
+  $stateProvider.state('/game', {
+    url: "/game",
+    templateUrl: "partials/game.html",
+    controller: 'CharacterCtrl'
   });
 });

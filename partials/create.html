@@ -1,0 +1,19 @@
+<h1>Create thine character!</h1>
+
+<form ng-submit="createPlayer()" role="form">
+  <div class="form-group">
+    <label for="name">Name: </label>
+    <input type="text" ng-model="playerName" class="form-control" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="sex">Sex: </label>
+    <input type="radio" name="sex" ng-model="playerSex" value="female"> Female
+    <input type="radio" name="sex" ng-model="playerSex" value="male"> Male
+  </div>
+  <div class="form-group">
+    <label for="class">Class: </label>
+    <input type="radio" name="class" ng-model="playerClass" value="fighter"> Fighter
+    <input type="radio" name="class" ng-model="playerClass" value="thief"> Thief
+  </div>
+  <button type="submit" ui-sref="/game" class="btn btn-default">Venture forth!</button>
+</form>
