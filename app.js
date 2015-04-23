@@ -17,4 +17,10 @@ character.config(function($stateProvider) {
     templateUrl: "partials/game.html",
     controller: 'CharacterCtrl'
   });
+
+  $stateProvider.state('/river', {
+    url: "/river",
+    templateUrl: "partials/river.html",
+    controller: 'CharacterCtrl'
+  });
 });
