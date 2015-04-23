@@ -8,5 +8,9 @@ character.factory('CharacterFactory', function() {
     factory.outcome = null;
   };
 
+  factory.updateOutcome = function(string) {
+    factory.outcome = string;
+  };
+
   return factory;
 });

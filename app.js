@@ -23,4 +23,10 @@ character.config(function($stateProvider) {
     templateUrl: "partials/river.html",
     controller: 'CharacterCtrl'
   });
+
+  $stateProvider.state('/knife', {
+    url: "/knife",
+    templateUrl: "partials/knife.html",
+    controller: 'CharacterCtrl'
+  });
 });
