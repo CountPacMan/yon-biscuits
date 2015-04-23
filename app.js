@@ -65,4 +65,10 @@ character.config(function($stateProvider) {
     templateUrl: "partials/gameover.html",
     controller: 'CharacterCtrl'
   });
+
+  $stateProvider.state('/fight', {
+    url: "/fight",
+    templateUrl: "partials/fight.html",
+    controller: 'CharacterCtrl'
+  });
 });
