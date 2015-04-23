@@ -29,4 +29,40 @@ character.config(function($stateProvider) {
     templateUrl: "partials/knife.html",
     controller: 'CharacterCtrl'
   });
+
+  $stateProvider.state('/bridge', {
+    url: "/bridge",
+    templateUrl: "partials/bridge.html",
+    controller: 'CharacterCtrl'
+  });
+
+  $stateProvider.state('/talk', {
+    url: "/talk",
+    templateUrl: "partials/talk.html",
+    controller: 'CharacterCtrl'
+  });
+
+  $stateProvider.state('/north', {
+    url: "/north",
+    templateUrl: "partials/north.html",
+    controller: 'CharacterCtrl'
+  });
+
+  $stateProvider.state('/look', {
+    url: "/look",
+    templateUrl: "partials/look.html",
+    controller: 'CharacterCtrl'
+  });
+
+  $stateProvider.state('/fail', {
+    url: "/fail",
+    templateUrl: "partials/fail.html",
+    controller: 'CharacterCtrl'
+  });
+
+  $stateProvider.state('/death', {
+    url: "/death",
+    templateUrl: "partials/gameover.html",
+    controller: 'CharacterCtrl'
+  });
 });

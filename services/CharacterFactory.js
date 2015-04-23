@@ -6,10 +6,16 @@ character.factory('CharacterFactory', function() {
     factory.sex = playerSex;
     factory.class = playerClass;
     factory.outcome = null;
+    factory.knife = false;
+    factory.wisdom = false;
   };
 
   factory.updateOutcome = function(string) {
     factory.outcome = string;
+  };
+
+  factory.updateWisdom = function() {
+    factory.wisdom = true;
   };
 
   return factory;
