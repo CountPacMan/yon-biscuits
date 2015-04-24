@@ -1,6 +1,6 @@
 # Quest for Yon Biscuit of Great Splendor JS Game for Epicodus
 ## by Daniel Toader and Cynthia Wilhelm
-### Date: April 21, 2015
+### Date: April 23, 2015
 #### Description
 Choose Your Own Adventure / mini-RPG game where you create a character and venture forth on a quest for Yon Biscuit of Lore.
 
