@@ -15,6 +15,6 @@ Choose Your Own Adventure / mini-RPG game where you create a character and ventu
 #### Technologies used
 - HTML5
 - CSS3
-- jQuery ver 2.1.3
+- JavaScript
 - AngularJS ver 1.3.15
 - AngularUI Router ver 0.2.13
